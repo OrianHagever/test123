@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\embape.jpg" />
+    <None Remove="Images\haaland.jpg" />
+    <None Remove="Images\image.jpg" />
+    <None Remove="Images\image1.jpg" />
+    <None Remove="Images\image2.jpg" />
+    <None Remove="Images\image3.jpg" />
+    <None Remove="Images\image4.jpg" />
+    <None Remove="Images\lebron.jpg" />
+    <None Remove="Images\nih.jpg" />
+    <None Remove="Images\ninja.jpg" />
+    <None Remove="Images\shrek.jpg" />
+  </ItemGroup>
+
+</Project>

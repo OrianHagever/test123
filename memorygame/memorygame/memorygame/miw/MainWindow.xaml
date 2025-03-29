@@ -1,0 +1,20 @@
+﻿<Window x:Class="miw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    
+    <UniformGrid Background="Beige" x:Name="myGrid">
+
+
+
+        <Grid x:Name="buildGrid"  >
+            <TextBox x:Name="sizeTxt"  Text="4"  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Width="25" Height="40"  />
+            <Button  x:Name="BuildBtn" Click="BuildBtn_Click" Width="50" Height="40" Content="Build" Margin="75,0,0,0"/>
+        </Grid>
+
+
+    </UniformGrid>
+</Window>
