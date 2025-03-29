@@ -12,7 +12,7 @@
 
         <Grid x:Name="buildGrid"  >
             <TextBox x:Name="sizeTxt"  Text="4"  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Width="25" Height="40"  />
-            <Button  x:Name="BuildBtn" Click="BuildBtn_Click" Width="50" Height="40" Content="Build" Margin="75,0,0,0"/>
+            <Button  x:Name="BuildBtn" Click="BuildBtn_Click" Width="50" Height="40" Content="Build" Margin="80,0,0,0"/>
         </Grid>
 
 
